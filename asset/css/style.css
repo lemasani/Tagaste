@@ -1,6 +1,26 @@
+.header{
+  width: 100%;
+  height: 15%;
+  background-image: linear-gradient(to right, rgba(12, 11, 9, 0.6), #ec1620 );
+}
+.navbar{
+  top: 5%;
+}
+.navbar-brand{
+  color: #1a1814!important;
+  width: 100px;
+}
+.nav-link{
+  color: #fdf200!important;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
-  background: white;
+  
   color: #0c0b09;
 }
 
@@ -304,4 +324,85 @@ h6 {
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
+}
+
+/*--------------------------------------------------------------
+# Hero section
+--------------------------------------------------------------*/
+#hero{
+  width: 100%;
+  height: 100vh;
+  background: url("../img/2nd6.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .container {
+  padding-top: 110px;
+}
+#hero, h1, h2{
+  color: white;
+}
+
+#hero, .btns{
+  display: flex;
+  gap: 20px;
+}
+
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+
+@media (max-height: 500px) {
+  #hero {
+    height: auto;
+    position: relative;
+    top: 100px;
+  }
+
+  #hero .container {
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+  #hero, .btns{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+#hero{
+  position: relative;
+  
+}
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #hero, .btns{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
 }
