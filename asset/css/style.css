@@ -407,7 +407,23 @@ h6 {
   
 }
 
+/*--------------------------------------------------------------
+#featured section
+--------------------------------------------------------------*/
+.featured  header{
+    color: #ec1620;
+    font-size: 24px;
+    font-style: italic;
+    border-bottom: 2px solid #fdf200;
+}
 
+.featured-info{
+  position: relative;
+  left: 40px;
+  font-size: 24px;
+  top: -70px;
+  color: #fff;
+}
 
 /*--------------------------------------------------------------
 # About section
