@@ -415,8 +415,19 @@ h6 {
     font-size: 24px;
     font-style: italic;
     border-bottom: 2px solid #fdf200;
+    
 }
 
+.feature-length img{
+  height: 400px;
+  width: 400px;
+}
+
+.feature-length img:hover{
+  transform: scale(1.1, 1.1);
+  transition-duration: 1s;
+  cursor: pointer;
+}
 .featured-info{
   position: relative;
   left: 40px;
