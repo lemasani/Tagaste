@@ -417,21 +417,44 @@ h6 {
     border-bottom: 2px solid #fdf200;
     
 }
-
-.feature-length img{
-  height: 400px;
-  width: 400px;
+.feature-length{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.feature-length img:hover{
-  transform: scale(1.1, 1.1);
-  transition-duration: 1s;
+.feature-content{
+  width: 75%;
+  height: 350px;
+  margin: 20px;
+  overflow: hidden;
   cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+
+}
+.img{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  transition: all 1.1s;
+}
+.image-doors{
+  background-image: url("../img/student1.jpg");
+}
+.image-gradu{
+  background-image: url("../img/student2.jpg");
+}
+.image-uniform{
+  background-image: url("../img/student3.jpg");
+}
+
+.img:hover{
+  transform: scale(1.2);
 }
 .featured-info{
   position: relative;
-  left: 40px;
-  font-size: 24px;
+  text-align: center;
+  font-size: 14px;
   top: -70px;
   color: #fff;
 }
