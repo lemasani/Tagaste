@@ -466,3 +466,9 @@ h6 {
 .wrapper{
   padding-top: 40px;
 }
+
+.carousel img {
+  max-height: 300px;
+  margin: 0 auto;
+  object-fit: cover;
+}
