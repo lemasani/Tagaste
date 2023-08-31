@@ -1,7 +1,11 @@
+
 .header{
   width: 100%;
   height: 15%;
   background:  rgba(12, 11, 9, 0.6);
+}
+.img-fluid{
+  width: 50px;
 }
 @media (max-width: 591px) {
   .img-fluid{
@@ -12,6 +16,167 @@
     
   }
 }
+
+.navbar-toggler{
+  background-color:#ed3c0d;
+}
+.navbar {
+  padding: 0;
+}
+
+.nav-link{
+  color: #ec1620;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: white;
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  color: #444444;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #ed3c0d;
+}
+
+.navbar .dropdown:hover>ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar .dropdown .dropdown:hover>ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+
+.nav-item{
+  color: #fff;
+}
+.nav-link{
+  color: #ec1620;
+}
+
+
+
+.mobile-nav-toggle {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+  
+.nav-item{
+  color: #fff;
+}
+}
+
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  border-radius: 6px;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
 
 /*--------------------------------------------------------------
 # Hero section
@@ -151,6 +316,40 @@
   color: #fff;
 }
 
+.welcome-sms{
+  position: relative;
+  top: 90px;
+  padding: 20px;
+}
+.welcome-sms > p{
+  letter-spacing: 1.5px;
+}
+.welcome-sms > h3{
+  font-size: 40px;
+  color: #ec1620;
+}
+.video{
+  height: 400px;
+  width: 550px;
+}
+@media (max-width: 500px) {
+  .welcome-sms{
+    position: relative;
+    top: 0px;
+  }
+  .welcome-sms > h3{
+    font-size: 20px;
+    color: #ec1620;
+  }
+  .welcome-sms > p{
+    letter-spacing: 1px;
+  }
+  .video{
+    height: 200px;
+    width: 250px;
+  }
+}
+
 /*--------------------------------------------------------------
 # About section
 --------------------------------------------------------------*/
@@ -163,4 +362,26 @@
   max-height: 300px;
   margin: 0 auto;
   object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .carousel{
+    margin-top: 20px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Stats section
+--------------------------------------------------------------*/
+
+.stats{
+  background: #d9d7d7;
+  position: relative;
+  top: 20px;
+}
+
+.stats-item span {
+  color: #ec1620;
+  font-size: 24px;
 }
