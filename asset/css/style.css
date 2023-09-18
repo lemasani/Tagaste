@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 .header{
   width: 100%;
   height: 15%;
@@ -266,8 +268,10 @@
     color: #ec1620;
     font-size: 24px;
     font-style: italic;
-    border-bottom: 2px solid #fdf200;
-    
+    text-decoration: underline #fdf200;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+    transition: all 2s;
 }
 .feature-length{
   text-align: center;
@@ -323,6 +327,7 @@
 }
 .welcome-sms > p{
   letter-spacing: 1.5px;
+  color: #444444;
 }
 .welcome-sms > h3{
   font-size: 40px;
@@ -343,6 +348,7 @@
   }
   .welcome-sms > p{
     letter-spacing: 1px;
+    color: #444444;
   }
   .video{
     height: 200px;
@@ -376,12 +382,80 @@
 --------------------------------------------------------------*/
 
 .stats{
-  background: #d9d7d7;
+  background: url("/asset/img/tagaste 2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
+  height: 150px;
   top: 20px;
+}
+.stats:before{
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  width: 100%;
 }
 
 .stats-item span {
   color: #ec1620;
   font-size: 24px;
+}
+.stats-item p{
+  color: #fff;
+}
+@media (max-width: 500px) {
+  .stats{
+    height: 500px;
+  }
+  .stats-item p{
+    color: #fff;
+  }
+}
+
+/*--------------------------------------------------------------
+# news_container section
+--------------------------------------------------------------*/
+
+.news_container{
+  position: relative;
+  height: 500px;
+  top: 50px;
+}
+.news_container h3{
+  color: #ec1620;
+  text-decoration: underline #fdf200;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 3px;
+  transition: all 2s;
+  font-style: italic;
+}
+.news_container ul{
+  margin: 10px;
+}
+.news_container ul li{
+  line-height: 25px;
+}
+
+
+
+/*--------------------------------------------------------------
+# footer section
+--------------------------------------------------------------*/
+.footer{
+  position: relative;
+  bottom: 0px;
+  background:  rgba(0, 0, 0, 0.748);
+}
+.logo-name{
+  flex: 2;
+}
+
+.footer .logo-name h3{
+  color: #ec1620;
+}
+.footer  .nav-link, p{
+  color: #fff;
 }
