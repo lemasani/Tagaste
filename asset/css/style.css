@@ -414,6 +414,11 @@ html{
     color: #fff;
   }
 }
+@media (max-width: 768px) {
+  .stats{
+    height: 300px;
+  }
+}
 
 /*--------------------------------------------------------------
 # news_container section
