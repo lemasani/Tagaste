@@ -352,8 +352,26 @@ html{
   }
   .video{
     height: 200px;
-    width: 250px;
+    width: 100%;
   }
+}
+@media (max-width: 768px) {
+  .welcome-sms{
+    position: relative;
+    top: 0px;
+  }
+  
+}
+@media (max-width: 1024px) {
+  .welcome-sms{
+    position: relative;
+    top: 0px;
+  }
+  .video-container{
+    display: flex;
+    gap: 80px;
+  }
+  
 }
 
 /*--------------------------------------------------------------
