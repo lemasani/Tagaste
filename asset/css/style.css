@@ -421,7 +421,7 @@ html{
 
 .news_container{
   position: relative;
-  height: 500px;
+  height: min-content;
   top: 50px;
 }
 .news_container h3{
@@ -445,6 +445,14 @@ html{
 .news_part p, .event_part p{
   color: black;
   text-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .news_container{
+    position: relative;
+    height: 800px;
+    top: 50px;
+  }
 }
 
 /*--------------------------------------------------------------
