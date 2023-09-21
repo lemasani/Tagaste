@@ -432,14 +432,20 @@ html{
   transition: all 2s;
   font-style: italic;
 }
-.news_container ul{
-  margin: 10px;
+.news_part ,.event_part{
+  margin-top: 10px;
 }
-.news_container ul li{
-  line-height: 25px;
+.news_part h6 , .event_part h6{
+  color: hsl(357, 85%, 41%);
 }
-
-
+.news_part .date , .event_part .date{
+  font-size: 15px;
+  font-style: italic;
+}
+.news_part p, .event_part p{
+  color: black;
+  text-wrap: wrap;
+}
 
 /*--------------------------------------------------------------
 # footer section
