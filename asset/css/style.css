@@ -340,6 +340,7 @@ html{
   color: #ec1620;
 }
 .video{
+  margin-top: 10px;
   height: 400px;
   width: 550px;
 }
