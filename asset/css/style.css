@@ -347,7 +347,6 @@ html{
     color: #ec1620;
   }
   .welcome-sms > p{
-    letter-spacing: 1px;
     color: #444444;
   }
   .video{
@@ -366,10 +365,6 @@ html{
   .welcome-sms{
     position: relative;
     top: 0px;
-  }
-  .video-container{
-    display: flex;
-    gap: 80px;
   }
   
 }
@@ -407,6 +402,7 @@ html{
   position: relative;
   height: 150px;
   top: 20px;
+  overflow-y: scroll
 }
 .stats:before{
   content: "";
@@ -477,14 +473,21 @@ html{
     top: 50px;
   }
 }
+/*--------------------------------------------------------------
+# location section
+--------------------------------------------------------------*/
 
+.location{
+  position: relative;
+  margin-top: 90px;
+}
 /*--------------------------------------------------------------
 # footer section
 --------------------------------------------------------------*/
 .footer{
   position: relative;
   bottom: 0px;
-  background:  rgba(0, 0, 0, 0.748);
+  background:  rgba(255, 255, 255, 0.748);
 }
 .logo-name{
   flex: 2;
@@ -494,5 +497,5 @@ html{
   color: #ec1620;
 }
 .footer  .nav-link, p{
-  color: #fff;
+  color: black;
 }
