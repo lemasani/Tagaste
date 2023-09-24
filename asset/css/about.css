@@ -1,0 +1,18 @@
+#hero-about{
+    width: 100%;
+    height: 50vh;
+    background: url("../img/2nd6.jpg") top center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+  }
+  #hero-about:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
