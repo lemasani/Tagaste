@@ -52,3 +52,11 @@
     text-decoration-thickness: 3px;
   }
   
+  
+/*--------------------------------------------------------------
+# history section
+--------------------------------------------------------------*/
+.history{
+  position: relative;
+  margin-top: 20px;
+}
