@@ -350,26 +350,6 @@ html{
   
 }
 
-/*--------------------------------------------------------------
-# About section
---------------------------------------------------------------*/
-
-.wrapper{
-  padding-top: 40px;
-}
-
-.carousel img {
-  max-height: 300px;
-  margin: 0 auto;
-  object-fit: cover;
-}
-
-@media (max-width: 500px) {
-  .carousel{
-    margin-top: 20px;
-  }
-}
-
 
 /*--------------------------------------------------------------
 # Stats section
