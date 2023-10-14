@@ -207,3 +207,25 @@ h4 {
 .form2{
   margin-top: 10px;
 }
+
+/*--------------------------------------------------------------
+# gallery page
+--------------------------------------------------------------*/
+.gallery h3{
+  color: #ec1620;
+  font-style: bold;
+}
+.row h3{
+  color: #ec1620;
+  font-style: italic;
+}
+.gallery-item{
+  overflow: hidden;
+}
+.gallery-item img{
+    width: 100%;
+}
+.gallery-item img:hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
