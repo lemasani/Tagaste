@@ -26,6 +26,10 @@
   margin-top: 30px;
 }
 
+/*--------------------------------------------------------------
+# general for olevel pages 
+--------------------------------------------------------------*/
+
 main {
   position: relative;
   top: 50px;
@@ -52,6 +56,11 @@ a {
   text-decoration: none;
   color: #ec1620;
 }
+
+
+/*--------------------------------------------------------------
+# welcome page 
+--------------------------------------------------------------*/
 
 .class {
   background-image: url('../img/Campus/gallery-1.jpg');
@@ -160,4 +169,41 @@ h4 {
 .sports p:hover {
   top: 200px;
   transition: all 2s;
+}
+
+
+
+/*--------------------------------------------------------------
+# acheivement page
+--------------------------------------------------------------*/
+
+.year{
+  border:none;
+  background-color: hsl(0, 0%, 97%);
+  padding: 20px;
+  margin-top: 10px;
+}
+.year h5{
+  text-align: center;
+}
+.results{
+  width: 100%;
+  border-collapse: collapse;
+}
+.results th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fdf200;
+}
+.results td, .results th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.results td{
+  text-align: center;
+}
+
+.form2{
+  margin-top: 10px;
 }
