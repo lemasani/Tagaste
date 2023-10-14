@@ -21,9 +21,11 @@
   color: #fdf200;
   text-underline-offset: 8px;
   text-decoration-thickness: 3px;
+  text-align: center;
 }
 .welcome h2 {
   margin-top: 30px;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -228,4 +230,19 @@ h4 {
 .gallery-item img:hover{
   transform: scale(1.2);
   transition: all 1s;
+}
+
+
+/*--------------------------------------------------------------
+# interview result page
+--------------------------------------------------------------*/
+
+.result-container h4{
+  color: black;
+  font-style: italic;
+  text-align: left;
+}
+.result{
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
