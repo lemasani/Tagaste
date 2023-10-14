@@ -73,10 +73,10 @@ h4 {
   color: black;
   height: 338px;
   width: 100%;
-  background-color: #fdf200;
+  background-color: hsl(57, 100%, 80%);
   padding: 10px;
   position: relative;
-  top: 400px;
+  top: 350px;
 }
 
 .class p:hover {
@@ -99,10 +99,10 @@ h4 {
   color: black;
   height: 338px;
   width: 100%;
-  background-color: #fdf200;
+  background-color: hsl(57, 100%, 80%);
   padding: 10px;
   position: relative;
-  top: 400px;
+  top: 350px;
 }
 .debates p:hover {
   top: 200px;
@@ -125,10 +125,10 @@ h4 {
   color: black;
   height: 338px;
   width: 100%;
-  background-color: #fdf200;
+  background-color: hsl(57, 100%, 80%);
   padding: 10px;
   position: relative;
-  top: 400px;
+  top: 350px;
 }
 .hygiene p:hover {
   top: 200px;
@@ -151,10 +151,10 @@ h4 {
   color: black;
   height: 338px;
   width: 100%;
-  background-color: #fdf200;
+  background-color: hsl(57, 100%, 80%);
   padding: 10px;
   position: relative;
-  top: 400px;
+  top: 350px;
 }
 
 .sports p:hover {
