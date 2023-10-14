@@ -56,6 +56,7 @@ a {
 .class {
   background-image: url('../img/Campus/gallery-1.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   height: 500px;
   width: 100%;
@@ -71,7 +72,7 @@ h4 {
 .class p {
   color: black;
   height: 338px;
-  width: calc(100% - 40%);
+  width: 100%;
   background-color: #fdf200;
   padding: 10px;
   position: relative;
@@ -86,6 +87,7 @@ h4 {
 .debates {
   background-image: url('../img/Campus/gallery-2.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   height: 500px;
   width: 100%;
@@ -96,7 +98,7 @@ h4 {
 .debates p {
   color: black;
   height: 338px;
-  width: calc(100% - 40%);
+  width: 100%;
   background-color: #fdf200;
   padding: 10px;
   position: relative;
@@ -110,6 +112,7 @@ h4 {
 .hygiene {
   background-image: url('../img/Campus/gallery-3.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   height: 500px;
   width: 100%;
@@ -121,7 +124,7 @@ h4 {
 .hygiene p {
   color: black;
   height: 338px;
-  width: calc(100% - 40%);
+  width: 100%;
   background-color: #fdf200;
   padding: 10px;
   position: relative;
@@ -135,6 +138,7 @@ h4 {
 .sports {
   background-image: url('../img/Campus/gallery-4.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   height: 500px;
   width: 100%;
@@ -146,7 +150,7 @@ h4 {
 .sports p {
   color: black;
   height: 338px;
-  width: calc(100% - 40%);
+  width: 100%;
   background-color: #fdf200;
   padding: 10px;
   position: relative;
